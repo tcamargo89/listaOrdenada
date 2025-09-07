@@ -31,7 +31,7 @@ function criaLista() {
 
       item.setAttribute("data-indice", indice);
 
-      item.innerHTML = `<span class="numero">${indice}</span>
+      item.innerHTML = `<span class="numero">${indice + 1}</span>
       <div class='arrastavel' draggable='true'>
       <p class='nome-pais'>${pais}</p>
       <i class='fas fa-grip-lines'></i></div>
