@@ -25,7 +25,7 @@ body {
   padding: 0;
   margin: 20px 0;
   width: 300px;
-  border: 1px; solid var(--cor-de-borda);
+  border: 1px solid var(--cor-de-borda);
   color: var(--cor-de-texto);
   list-style-type: none;
 }
@@ -51,8 +51,8 @@ body {
   background-color: #eaeaea;
 }
 
-.lista-ordenavel .nome-pais{
-    margin: 0 20px 0 0;
+.lista-ordenavel .nome-pais {
+  margin: 0 20px 0 0;
 }
 
 .lista-ordenavel li.correto .nome-pais {
